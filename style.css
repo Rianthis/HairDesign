@@ -6,7 +6,8 @@ body{
     background-color: white;
     background-image: url(/pictures/friseur.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-attachment: fixed;
+    background-position-x: center;
 }
 
 .container{
@@ -37,8 +38,9 @@ a{
 
 
 main{
-    height: max-content;
-    background-color: blue;
+    margin-top: 300px;
+    height: 5000px;
+    background-color: rgb(101, 101, 105);
 }
 footer{
     height: 50px;
