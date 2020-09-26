@@ -2,7 +2,13 @@ html{
     height: 100%;
 }
 
+.Logo {
+    height: 50px;
+}
+
 body{
+    width: auto;
+    height: auto;
     background-color: white;
     background-image: url(/pictures/friseur.jpg);
     background-repeat: no-repeat;
@@ -23,8 +29,8 @@ header{
 
 .nav-links{
     text-align: right;
-    flex: 1;
 }
+
 a{
     margin-left: 10px;
     margin-right: 10px;
