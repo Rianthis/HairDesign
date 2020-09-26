@@ -2,6 +2,10 @@ html{
     height: 100%;
 }
 
+.Logo{
+    height: 50px;
+}
+
 body{
     background-color: white;
     background: url(pictures/friseur.jpg) no-repeat center center fixed; 
@@ -19,18 +23,34 @@ body{
 }
 
 header{
-    height: 50px;
+    height: auto;
     background-color: rgb(142, 143, 143, 0.3);
 }
 
+nav {
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1; 
+    display: flex;
+    align-items: center;
+    ali
+}
+
 .nav-links{
-    text-align: right;
-    flex: 1;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
 }
 a{
     margin-left: 10px;
     margin-right: 10px;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
