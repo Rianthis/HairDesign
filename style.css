@@ -1,0 +1,46 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: white;
+    background-image: url(/pictures/friseur.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    height: 50px;
+    background-color: rgb(142, 143, 143);
+}
+
+.nav-links{
+    text-align: right;
+    flex: 1;
+}
+a{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+main{
+    height: max-content;
+    background-color: blue;
+}
+footer{
+    height: 50px;
+    background-color: rebeccapurple;
+}
