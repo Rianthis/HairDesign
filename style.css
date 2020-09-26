@@ -18,6 +18,8 @@ body{
     
 }
 
+
+
 .container{
     width: 100%;
     position: absolute;
@@ -124,12 +126,39 @@ header{
 
 
 main{
-    margin-top: 300px;
-    height: 5000px;
+    margin-top: 0px;
+    height: auto;
     width: auto;
-    background-color: rgb(101, 101, 105);
 }
+
+main .entree{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+main .time{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgb(101, 101, 105);
+    justify-content: center;
+    text-align: center;
+}
+
+main .time li{
+    list-style: none;
+}
+
+
+
+
+
+
+
 footer{
     height: 50px;
-    background-color: rebeccapurple;
+    background-color: rgb(158, 156, 160);
 }
