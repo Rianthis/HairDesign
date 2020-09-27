@@ -176,7 +176,7 @@ main .aboutUs .text-right{
 @media (max-width: 930px) {
     main .aboutUs{
         display: none;
-
+    }
 }
 
 
