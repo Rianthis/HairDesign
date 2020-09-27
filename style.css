@@ -10,6 +10,7 @@ html{
 body{
     background-color: white;
     background: url(pictures/friseur.jpg) no-repeat center center fixed; 
+  background-size: cover;
     /*margin: 0;
     padding: 0;
   -webkit-background-size: cover;
@@ -29,6 +30,9 @@ body{
 
 header{
     background-color: rgb(142, 143, 143, 0.3);
+    position:fixed !important;
+    position: absolute;
+    width: 100%;
 }
 
 .navbar {
@@ -133,11 +137,46 @@ main{
 }
 
 main .entree{
-    height: 550px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+main .aboutUs{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(158, 156, 160);
+}
+main .aboutUs .text-div-wrapper{
+    /*flex-direction: column;
+    justify-content: center;
+    text-align: center;*/
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 50px;
+    border:1px solid black;
+}
+main .aboutUs .text-div-wrapper p{
+    height: 15px;
+}
+main .aboutUs .text-left{
+    float:left ;
+    margin-right: 14px;
+}
+main .aboutUs .text-right{
+    float: left;
+    margin-left: 14px;
+}
+
+@media (max-width: 930px) {
+    main .aboutUs{
+        display: none;
+
 }
 
 
