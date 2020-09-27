@@ -186,7 +186,7 @@ main .aboutUs .text-right{
 
 
 main .time{
-    height: 652px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
