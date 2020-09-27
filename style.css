@@ -154,7 +154,7 @@ main .aboutUs{
     background-color: rgb(158, 156, 160);
 }
 main .aboutUs .text-div-wrapper{
-    width: max-content;
+    width: auto;
     margin: 0 auto;
     margin-top: 50px;
     border:1px solid black;
