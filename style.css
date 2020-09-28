@@ -212,8 +212,61 @@ main .time .time-right{
     margin-left: 14px;
 }
 
+main .price{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(158, 156, 160);
+}
+
+main .price .price-wrapper{
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: left;
+}
+
+main .price .price-left{
+    float:left ;
+    margin-right: 14px;
+}
+main .price .price-right{
+    float: left;
+    margin-left: 14px;
+}
+
+main .contact{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(101, 101, 105);
+}
+
+
+main .contact .contact-wrapper{
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: left;
+}
+
+main .contact .contact-left{
+    float:left ;
+    margin-right: 14px;
+}
+main .contact .contact-right{
+    float: left;
+    margin-left: 14px;
+}
+
+
+
 
 footer{
     height: 50px;
-    background-color: rgb(158, 156, 160);
+    background-color: rgb(145, 145, 146);
 }
