@@ -146,18 +146,20 @@ main .entree{
 }
 
 main .aboutUs{
-    height: 650px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     background-color: rgb(158, 156, 160);
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 main .aboutUs .text-div-wrapper{
     width: auto;
     margin: 0 auto;
-    margin-top: 50px;
-    border:1px solid black;
+    margin-top: 20px;
+    /*border:1px solid black;*/
 }
 main .aboutUs .text-div-wrapper p{
     height: 15px;
@@ -186,20 +188,21 @@ main .aboutUs .text-right{
 
 
 main .time{
-    height: 650px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     background-color: rgb(101, 101, 105);
-    /*padding-top: 1.5rem;
-    padding-bottom: 1.5rem;*/
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 main .time .time-wrapper{
     width: max-content;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     text-align: left;
 }
 
@@ -213,12 +216,14 @@ main .time .time-right{
 }
 
 main .price{
-    height: 650px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     background-color: rgb(158, 156, 160);
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 main .price .price-wrapper{
