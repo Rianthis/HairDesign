@@ -281,6 +281,12 @@ main .space2-text-wrap li:hover{
         border: 2px solid black;
         border-radius: 25%;
      }
+
+     main .space2-text-wrap li:hover{
+        color: red;
+        border: 2px solid red;
+        font-size: 22px;
+}
 }
 
 
