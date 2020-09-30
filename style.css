@@ -322,13 +322,12 @@ main .price .Damen-price{
 main .price .JugendlicheKinder{
     float: left;
     margin-left: 30px;
-    margin-right: 30px;
+    margin-right:30px;
 }
 
 main .price .price-left{
     float:left ;
     margin-right: 14px;
-    margin-right: 30px;
 }
 main .price .price-right{
     float: left;
@@ -339,7 +338,7 @@ main .price p {
     font-size: 18px;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 1175px) {
 
     main .price .Männer-price{
         float:none ;
@@ -352,14 +351,18 @@ main .price p {
     }
 }
 
-@media(max-width: 288px){
+@media(max-width: 390px){
     main .price .price-wrapper p{
-        font-size: 10px;
+        font-size: 4vw;
     }   
-    main .price .price-wrapper {
-        width: 100%;
+    
+}
+
+@media(max-width: 278px){
+    main .price .price-wrapper h1{
     }
 }
+
 
 main .map{
     height: auto;
