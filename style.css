@@ -316,6 +316,7 @@ main .price .price-left{
 main .price .price-right{
     float: left;
     margin-left: 14px;
+    text-align: center;
 }
 main .price p {
     font-size: 18px;
