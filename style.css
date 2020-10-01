@@ -271,6 +271,16 @@ main .space2-text-wrap li:hover{
 }
 
 @media(max-width: 540px){
+
+    main .space2{
+    flex-direction: column;
+    }
+    main .space2 .space2-text-wrap ul{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    }
+
     main .space2-text-wrap li{
         list-style: none;
         margin: 10px 30px;
@@ -342,20 +352,46 @@ main .price p {
 
     main .price .Männer-price{
         float:none ;
+        margin-right: 0;
+        margin-left: 0;
     }
     main .price .Damen-price{
         float: none;
+        margin-right: 0;
+        margin-left: 0;
     }
     main .price .JugendlicheKinder{
         float: none;
+        margin-right: 0;
+        margin-left: 0;
     }
+    
 }
 
 @media(max-width: 390px){
     main .price .price-wrapper p{
-        font-size: 4vw;
+        font-size: 5vw;
     }   
-    
+    main .price .Männer-price{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    main .price .Damen-price{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    main .price .JugendlicheKinder{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    main .price .price-left{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    main .price .price-right{
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
 
 @media(max-width: 278px){
