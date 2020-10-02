@@ -352,11 +352,14 @@ main .price .price-right{
 main .price p {
     font-size: 18px;
 }
+main .price .price-right p{
+    text-align: end;
+}
 
 @media (max-width: 1175px) {
 
     main .price .Männer-price{
-        float:none ;
+        float: none ;
         margin-right: 0;
         margin-left: 0;
     }
@@ -370,7 +373,15 @@ main .price p {
         margin-right: 0;
         margin-left: 0;
     }
-    
+    main .price .price-left{
+        margin-right: 0;
+        margin-left: 0;
+        width: 300px;
+    }
+    main .price .price-right{
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
 
 @media(max-width: 390px){
@@ -390,13 +401,9 @@ main .price p {
         margin-left: 0;
     }
     main .price .price-left{
-        margin-right: 0;
-        margin-left: 0;
+        width: 70vw;
     }
-    main .price .price-right{
-        margin-right: 0;
-        margin-left: 0;
-    }
+   
 }
 
 @media(max-width: 278px){
