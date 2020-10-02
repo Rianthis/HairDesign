@@ -114,11 +114,16 @@ header{
     .nav-links ul {
         width: 100%;
         flex-direction: column;
+        background-color: rgb(142, 143, 143, 0.8);
     }
 
     .nav-links li{
         text-align: center;
     }
+    .nav-links li:hover{
+    background-color: rgb(102, 101, 101);
+    }
+
 
     .nav-links li a{
         padding: .5rem 1rem;
