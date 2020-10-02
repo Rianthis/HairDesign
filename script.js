@@ -16,10 +16,9 @@ window.onscroll = function () {
 		navbarLinks.classList.remove('active')
 } else if (prevScrollpos < currentScrollPos) {
 	navbarLinks.classList.remove('active')
-	}
-	else {
-		document.getElementById("navbar").style.height = "60px";
-	}
+	document.getElementById("navbar").style.height = "60px";
+}
+	
 	prevScrollpos = currentScrollPos;
 }
 
