@@ -423,10 +423,7 @@ main .price .price-right p{
    
 }
 
-@media(max-width: 278px){
-    main .price .price-wrapper h1{
-    }
-}
+
 
 
 main .map{
@@ -535,7 +532,7 @@ footer{
     text-decoration: none;
     cursor: pointer;
     padding: 2px 20px;
-    float: right;
+    /*float: right;             warum auch immer das als fehler angezeigt wird*/
     border-radius: 20px;
 }
 #myCookieConsent a#cookieButton:hover {
