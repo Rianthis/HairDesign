@@ -3,9 +3,13 @@ html{
     scroll-behavior: smooth;
 }
 
-.Logo{
+.logo_head_div{
     margin-left: 10px;
-    height: 50px;
+    height: 100%;
+}
+.logo_head_img{
+    height: 100px;
+    width: 210px;
 }
 
 body{
