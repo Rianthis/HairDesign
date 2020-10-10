@@ -13,11 +13,11 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
 	var currentScrollPos = window.pageYOffset;
 	if (prevScrollpos > currentScrollPos) {
-		document.getElementById("navbar").style.height = "80px";
+		//document.getElementById("navbar").style.height = "80px";
 		navbarLinks.classList.remove('active')
 } else if (prevScrollpos < currentScrollPos) {
 	navbarLinks.classList.remove('active')
-	document.getElementById("navbar").style.height = "60px";
+	//document.getElementById("navbar").style.height = "60px";
 }
 	
 	prevScrollpos = currentScrollPos;
