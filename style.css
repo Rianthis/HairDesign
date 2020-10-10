@@ -253,6 +253,11 @@ main .time .time-wrapper{
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: left;
+    background-color: rgb(143, 141, 145);
+    border: black;
+    border-style: solid;
+    box-shadow: 10px 10px 5px rgb(131, 129, 133);
+    padding: 25px;
 }
 
 main .time .time-left{
