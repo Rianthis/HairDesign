@@ -8,7 +8,7 @@ toggleButton.addEventListener('click', () => {
 
 
 /* When the user scrolls down, smaller navbar. When the user scrolls up, bigger navbar 
-  +   wenn die handy navbar ausgeklappt ist und gescrollt wird => einklappen*/
+  +   wenn die handy navbar ausgeklappt ist und gescrollt wird => einklappen
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
 	var currentScrollPos = window.pageYOffset;
@@ -22,7 +22,7 @@ window.onscroll = function () {
 	
 	prevScrollpos = currentScrollPos;
 }
-
+*/
 
 
 // Cookie Compliancy BEGIN
