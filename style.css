@@ -156,6 +156,13 @@ main .entree{
     color: white;
 }
 
+main .entree .logo_entree_img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 main .entree a{
     border-style: solid;
     margin-top: 0; 
