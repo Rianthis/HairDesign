@@ -4,8 +4,8 @@ html{
 }
 
 .logo_head_div{
-    margin-left: 10px;
-    height: 100%;
+    padding-bottom: 0px;
+    padding-top: 15px;
 }
 .logo_head_img{
     height: 100px;
@@ -176,7 +176,7 @@ main .entree a{
 }
 
 main .entree a:hover{
-    font-size: larger;
+    color: #000;
 }
 
 
