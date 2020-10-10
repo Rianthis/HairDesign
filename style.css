@@ -286,10 +286,14 @@ main .space2-text-wrap li{
    border-radius: 25%;
 }
 
-main .space2-text-wrap li:hover{
-    color: white;
-    border: 2px solid white;
+main .instagram{
+    color: #000;
 }
+
+main .facebook{
+    color: #000;
+}
+
 
 @media(max-width: 540px){
 
