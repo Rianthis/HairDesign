@@ -6,10 +6,12 @@ html{
 .logo_head_div{
     padding-bottom: 0px;
     padding-top: 15px;
+
 }
 .logo_head_img{
     height: 100px;
     width: 210px;
+
 }
 
 body{
@@ -38,6 +40,7 @@ header{
     position:fixed !important;
     position: absolute;
     width: 100%;
+    height: 90px;
 }
 
 .navbar {
@@ -51,12 +54,18 @@ header{
     justify-content: space-between;
     align-items: center;
     top: 0;
+    height: 90px;
 }
 
 .nav-links{
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
+    padding: 0;
+    top: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+        
 }
 
 .nav-links ul {
@@ -98,8 +107,21 @@ header{
 }
 
 @media (max-width: 735px) {
+    .logo_head_div{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
     .toggle-button{
         display: flex;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
     }
 
     .nav-links{
@@ -117,6 +139,7 @@ header{
 
     .nav-links ul {
         width: 100%;
+        margin-top: 40px;
         flex-direction: column;
         background-color: rgb(142, 143, 143, 0.8);
     }
@@ -291,6 +314,9 @@ main .space2-text-wrap{
     margin-bottom: 20px;
 }
 
+main .space2-text-wrap ul{
+    padding: 0;
+}
 main .space2-text-wrap li{
    list-style: none;
    margin: 10px 30px;
