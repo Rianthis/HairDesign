@@ -181,9 +181,10 @@ main .entree{
 
 main .entree .logo_entree_img{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-width: 12rem;
 }
 
 main .entree a{
@@ -280,7 +281,7 @@ main .time .time-wrapper{
     border: black;
     border-style: solid;
     box-shadow: 10px 10px 5px rgb(131, 129, 133);
-    padding: 25px;
+    padding: 16px;
 }
 
 main .time .time-left{
@@ -518,17 +519,20 @@ main .contact .contact-left{
 }
 main .contact .contact-right{
     float: left;
-    margin-left: 14px;
 }
 main .contact p {
     font-size: 18px;
 }
 
-@media(max-width: 288px){
+@media(max-width: 408px){
     main .contact p {
         /*font-size: 16px;*/
-        font-size: 6vw;
+        font-size:smaller;
     }   
+    main .contact .contact-left{
+        margin-right: 5px;
+    }
+    
 }
 
 
