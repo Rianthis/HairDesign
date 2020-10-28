@@ -16,7 +16,8 @@ html{
 
 body{
     background-color: white;
-    background: url(pictures/friseur.jpg) no-repeat center center fixed; 
+    background: url(pictures/friseur.jpg) no-repeat center -130px fixed; 
+
     background-size: cover;
     /*margin: 0;
     padding: 0;
@@ -25,6 +26,12 @@ body{
   -o-background-size: cover;
   background-size: cover;*/
     
+}
+@media(max-width: 1127px) {
+    body{
+        background: url(pictures/friseur.jpg) no-repeat center center fixed; 
+        background-size: cover;
+    }
 }
 
 
@@ -225,12 +232,22 @@ main .aboutUs .text-div-wrapper p{
     height: 15px;
 }
 main .aboutUs .text-left{
+    background-color: aqua;
     float: left; ;
-    margin-right: 14px;
+    /*margin-right: 14px;*/
+    width: 450px;
+    height: 550px;
 }
 main .aboutUs .text-right{
+    background-color: brown;
     float: left;
-    margin-left: 14px;
+    width: 450px;
+    height: 550px;
+}
+
+main .aboutUs .text-right img{
+    width: 400px;
+   
 }
 
 @media (max-width: 930px) {
