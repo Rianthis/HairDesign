@@ -228,26 +228,24 @@ main .aboutUs .text-div-wrapper{
     /*border:1px solid black;*/
     
 }
-main .aboutUs .text-div-wrapper p{
-    height: 15px;
+main .aboutUs  p{
+    font-size: 20px;
 }
 main .aboutUs .text-left{
     background-color: aqua;
     float: left; ;
-    /*margin-right: 14px;*/
-    width: 450px;
+    max-width: 550px;
     height: 550px;
 }
 main .aboutUs .text-right{
     background-color: brown;
     float: left;
-    width: 450px;
+    max-width: 550px;
     height: 550px;
 }
 
 main .aboutUs .text-right img{
-    width: 400px;
-   
+    width: 80%;
 }
 
 @media (max-width: 930px) {
@@ -261,14 +259,6 @@ main .aboutUs .text-right img{
     }
 }
 
-@media(max-width: 288px){
-    main .aboutUs .text-div-wrapper p{
-        font-size: 10px;
-    }   
-    main .aboutUs .text-div-wrapper {
-        width: 100%;
-    }
-}
 
 main .space1{
     height: 300px;
@@ -538,13 +528,12 @@ main .contact .contact-right{
     float: left;
 }
 main .contact p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 @media(max-width: 408px){
     main .contact p {
-        /*font-size: 16px;*/
-        font-size:smaller;
+        font-size:18px;
     }   
     main .contact .contact-left{
         margin-right: 5px;
