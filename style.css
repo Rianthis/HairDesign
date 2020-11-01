@@ -229,24 +229,34 @@ main .aboutUs .text-div-wrapper{
     
 }
 main .aboutUs  p{
-    font-size: 20px;
+    font-size: 18px;
+    margin: 0px 20px 0px 20px;
 }
 main .aboutUs .text-left{
-    background-color: aqua;
     float: left; ;
     max-width: 550px;
-    height: 550px;
+    height: 1200px;
+}
+main .aboutUs .text-left .Sanije_img{
+    width: 80%;
+    max-width: 200px;
+    margin-top: 10px;
+}
+main .aboutUs .text-left .meisterbrief{
+    width: 80%;
+    max-width: 350px;
 }
 main .aboutUs .text-right{
-    background-color: brown;
     float: left;
     max-width: 550px;
     height: 550px;
 }
-
-main .aboutUs .text-right img{
+main .aboutUs .text-right .Denis_img{
     width: 80%;
+    max-width: 200px;
+    margin-top: 10px;
 }
+
 
 @media (max-width: 930px) {
 
@@ -305,7 +315,7 @@ main .time p {
 
 main .space2{
     height: 300px;
-    background: url(pictures/salon_zwischenbild.jpeg) no-repeat center center fixed; 
+    background: url(pictures/salon_zwischenbild_2.jpeg) no-repeat center center fixed; 
     background-size: cover;
 
     display: flex;
