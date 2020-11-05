@@ -266,10 +266,11 @@ main .aboutUs .text-right .Denis_img{
     }
     main .aboutUs .text-right{
         float: none;
+        margin-top: 50px;
     }
     main .aboutUs .text-left .meisterbrief{
-        width:70%;
-        max-width: 300px;
+        width:60%;
+        max-width: 220px;
     }
 }
 
@@ -423,18 +424,20 @@ main .price .price-wrapper{
 }
 .price-table tbody td:nth-child(odd){
     width: min-content;
+
 }
 
 
 @media (max-width: 1130px) {
     .price-table{
         display: block;
-        margin: 0 10px;
+        margin: 0 0px;
     }
 
     .price-table tbody td{
         word-wrap:break-word;
-        overflow-wrap: break-word;     
+        overflow-wrap: break-word;   
+        font-size: 18px;  
     }
 }
 
