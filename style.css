@@ -258,7 +258,7 @@ main .aboutUs .text-right .Denis_img{
 }
 
 
-@media (max-width: 930px) {
+@media (max-width: 1097px) {
 
 
     main .aboutUs .text-left{
@@ -266,6 +266,10 @@ main .aboutUs .text-right .Denis_img{
     }
     main .aboutUs .text-right{
         float: none;
+    }
+    main .aboutUs .text-left .meisterbrief{
+        width:70%;
+        max-width: 300px;
     }
 }
 
