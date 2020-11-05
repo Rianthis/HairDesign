@@ -397,93 +397,41 @@ main .price{
     padding-bottom: 80px;
 }
 
+
 main .price .price-wrapper{
-    width: max-content;
     margin: 0 auto;
     margin-top: 50px;
     text-align: left;
 }
 
-main .price .Männer-price{
-    float: left;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-main .price .Damen-price{
-    float: left;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-main .price .JugendlicheKinder{
-    float: left;
-    margin-left: 30px;
-    margin-right:30px;
+.price-table{
+    display: inline;
+    margin: 0 10px; 
+
 }
 
-main .price .price-left{
-    float:left ;
-    margin-right: 14px;
+.price-table tbody td{
+    font-size: 20px;
 }
-main .price .price-right{
-    float: left;
-    margin-left: 14px;
-    text-align: center;
+.price-table tbody td:nth-child(even){
+    width: max-content;
+    float: right;
 }
-main .price p {
-    font-size: 18px;
-}
-main .price .price-right p{
-    text-align: end;
+.price-table tbody td:nth-child(odd){
+    width: min-content;
 }
 
-@media (max-width: 1175px) {
 
-    main .price .Männer-price{
-        float: none ;
-        margin-right: 0;
-        margin-left: 0;
+@media (max-width: 1130px) {
+    .price-table{
+        display: block;
+        margin: 0 10px;
     }
-    main .price .Damen-price{
-        float: none;
-        margin-right: 0;
-        margin-left: 0;
-    }
-    main .price .JugendlicheKinder{
-        float: none;
-        margin-right: 0;
-        margin-left: 0;
-    }
-    main .price .price-left{
-        margin-right: 0;
-        margin-left: 0;
-        width: 300px;
-    }
-    main .price .price-right{
-        margin-right: 0;
-        margin-left: 0;
-    }
-}
 
-@media(max-width: 390px){
-    main .price .price-wrapper p{
-        font-size: 5vw;
-    }   
-    main .price .Männer-price{
-        margin-right: 0;
-        margin-left: 0;
+    .price-table tbody td{
+        word-wrap:break-word;
+        overflow-wrap: break-word;     
     }
-    main .price .Damen-price{
-        margin-right: 0;
-        margin-left: 0;
-    }
-    main .price .JugendlicheKinder{
-        margin-right: 0;
-        margin-left: 0;
-    }
-    main .price .price-left{
-        width: 70vw;
-    }
-   
 }
 
 
